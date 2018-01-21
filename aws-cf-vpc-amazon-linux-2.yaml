@@ -216,7 +216,7 @@ Resources:
     Type: Custom::AMIInfo
     Properties:
       ServiceToken: !GetAtt AMIInfoFunction.Arn
-      NameFilter: 'amzn2-ami-hvm*ebs'
+      NameFilter: 'amzn2-ami-hvm*gp2'
 
   LinuxInstance01:
     Type: AWS::EC2::Instance
