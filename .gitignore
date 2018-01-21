@@ -1,5 +1,6 @@
 # AWS
-.aws
-.aws/
+**/.aws
 *.pem
 *.ppk
+credentials
+config
